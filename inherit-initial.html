@@ -8,21 +8,28 @@
   <style>
     body {
       color: red; /* Propiedad que se hereda. */
+      
     }
     .heredar {
       color: inherit; /* El valor "inherit" fuerza que herede el valor del color de su etiqueta contenedora. */
+      font-style: inherit;
     }
 
     p {
       border: 3px solid red; /* Propiedad que no se hereda. */
       padding: 20px; /* Propiedad que no se hereda. */
       margin: 20px; /* Propiedad que no se hereda. */
+      text-align: right;
+      font-style: italic;
+      
     }
 
     .no-heredar {
       border: initial; /* El valor "initial" resetea los estilos aplicados al valor inicial. */
       margin: initial;
       padding: initial;
+      text-align: initial;
+
     }
   </style>
 </head>
